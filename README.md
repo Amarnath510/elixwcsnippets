@@ -1,65 +1,29 @@
-# elixwcsnippets README
+# Elix Web Components Snippets
 
-This is the README for your extension "elixwcsnippets". After writing up a brief description, we recommend including the following sections.
+[![Version](https://img.shields.io/vscode-marketplace/v/amarnath510.ElixWebComponentsSnippets.svg)](https://marketplace.visualstudio.com/items?itemName=amarnath510.ElixWebComponentsSnippets)
 
-## Features
+[Elix](https://component.kitchen/elix) is an open collection of high-quality web components for common user interface patterns. This snippet extension for vscode is used to generate JavaScript snippets using Elix APIs.
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+## Setup
 
-For example if there is an image subfolder under your extension project workspace:
+Just install this package from the [Extension Marketplace](https://marketplace.visualstudio.com/VSCode), then make sure to add `"editor.snippetSuggestions": "top"` to your user settings to see these snippets on top in the suggestion popover.
 
-\!\[feature X\]\(images/feature-x.png\)
+## Snippets
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+Snippets are optimized to be short and easy to remember.
 
-## Requirements
+Below is a list of all available snippets and the triggers of each one. Press `Ctrl + Space` and start with elix to see the list of snippets
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+| Snippet Name   | Description                                                      |
+| ----------- | ------------------------------------------------------------------- |
+| `elix-class`     | Create JavaScript class extending Elix's ReactiveElement       |
+| `elix-getter`     | Getter for selected string with Elix state API       |
+| `elix-setter`     | Setter for selected string with Elix state API       |
+| `elix-getter-setter`     | Getter and Setter for selected string with Elix state API       |
 
-## Extension Settings
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
+![Usage](./elix-web-components.gif)
 
-For example:
 
-This extension contributes the following settings:
-
-* `myExtension.enable`: enable/disable this extension
-* `myExtension.thing`: set to `blah` to do something
-
-## Known Issues
-
-Calling out known issues can help limit users opening duplicate issues against your extension.
-
-## Release Notes
-
-Users appreciate release notes as you update your extension.
-
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
------------------------------------------------------------------------------------------------------------
-
-## Working with Markdown
-
-**Note:** You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (macOS) to see a list of Markdown snippets
-
-### For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+## Reference & Sources
+- [Github Elix](https://github.com/elix/elix)

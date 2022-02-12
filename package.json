@@ -4,7 +4,7 @@
     "description": "Elix Web Components Snippets",
     "version": "0.0.1",
     "publisher": "Amarnath510",
-    "icon": "images/elix.png",
+    "icon": "icon.png",
      "license": "MIT",
     "repository": {
         "type": "git",

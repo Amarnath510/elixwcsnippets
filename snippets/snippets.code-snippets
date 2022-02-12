@@ -5,7 +5,7 @@
       "import { ReactiveElement } from 'elix';",
       "import { defaultState, template, render } from 'elix/src/base/internal';",
       "import { templateFrom } from 'elix/src/core/htmlLiterals';\n",
-      "export default class ${TM_FILENAME_BASE/[\\.-]//g} extends ReactiveElement {",
+      "export default class ${TM_FILENAME_BASE/(.*)/${1:/capitalize}/} extends ReactiveElement {",
       "\tget [defaultState]() {",
       "\t\treturn Object.assign(super[defaultState], {",
       "\t\t\t// Your Properties goes here",
@@ -30,21 +30,21 @@
     "body": [
       "get ${TM_SELECTED_TEXT}() {\n\treturn this[state].${TM_SELECTED_TEXT};\n}"
     ],
-    "description": "Getter with Elix state API"
+    "description": "Getter for selected string with Elix state API"
   },
   "propertySet": {
     "prefix": "elix-setter",
     "body": [
       "set ${TM_SELECTED_TEXT}(${TM_SELECTED_TEXT}) {\n\tthis[setState]({ ${TM_SELECTED_TEXT} });\n}"
     ],
-    "description": "Setter with Elix state API"
+    "description": "Setter for selected string with Elix state API"
   },
   "propertyGetAndSet": {
-    "prefix": "elix-setter-getter",
+    "prefix": "elix-getter-setter",
     "body": [
       "get ${TM_SELECTED_TEXT}() {\n\treturn this[state].${TM_SELECTED_TEXT};\n}\n",
       "set ${TM_SELECTED_TEXT}(${TM_SELECTED_TEXT}) {\n\tthis[setState]({ ${TM_SELECTED_TEXT} });\n}"
     ],
-    "description": "Getter and Setter with Elix state API"
+    "description": "Getter and Setter for selected string with Elix state API"
   }
 }
