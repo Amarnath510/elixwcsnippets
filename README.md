@@ -1,12 +1,12 @@
 # Elix Web Components Snippets
 
-[![Version](https://img.shields.io/vscode-marketplace/v/amarnath510.ElixWebComponentsSnippets.svg)](https://marketplace.visualstudio.com/items?itemName=amarnath510.ElixWebComponentsSnippets)
+[![Version](https://img.shields.io/vscode-marketplace/v/amarnathchandana.elixwcsnippets.svg)](https://marketplace.visualstudio.com/items?itemName=amarnathchandana.elixwcsnippets) [![Downloads](https://img.shields.io/vscode-marketplace/d/amarnathchandana.elixwcsnippets.svg)](https://marketplace.visualstudio.com/items?itemName=amarnathchandana.elixwcsnippets)
 
 [Elix](https://component.kitchen/elix) is an open collection of high-quality web components for common user interface patterns. This snippet extension for vscode is used to generate JavaScript snippets using Elix APIs.
 
 ## Setup
 
-Just install this package from the [Extension Marketplace](https://marketplace.visualstudio.com/VSCode), then make sure to add `"editor.snippetSuggestions": "top"` to your user settings to see these snippets on top in the suggestion popover.
+Just install this package from the [Extension Marketplace](https://marketplace.visualstudio.com/items?itemName=AmarnathChandana.elixwcsnippets), then make sure to add `"editor.snippetSuggestions": "top"` to your user settings to see these snippets on top in the suggestion popover.
 
 ![Usage](./elix-web-components.gif)
 

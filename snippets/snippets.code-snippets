@@ -19,8 +19,8 @@
       "\t\tconst result = templateFrom.html`",
       "\t\t\t<!-- Your HTML goes here -->",
       "\t\t`;",
-      "\t\treturn result",
-      "\t}\n",
+      "\t\treturn result;",
+      "\t}",
       "}\n"
     ],
     "description": "Create JavaScript class extending Elix's ReactiveElement"
