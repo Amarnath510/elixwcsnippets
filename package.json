@@ -1,0 +1,27 @@
+{
+    "name": "elixwcsnippets",
+    "displayName": "Elix Web Components Snippets",
+    "description": "Elix Web Components Snippets",
+    "version": "0.0.1",
+    "publisher": "Amarnath510",
+    "icon": "images/elix.png",
+     "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/amarnath510/elixwcsnippets"
+    },
+    "engines": {
+        "vscode": "^1.64.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "javascript",
+                "path": "./snippets/snippets.code-snippets"
+            }
+        ]
+    }
+}
