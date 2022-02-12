@@ -8,6 +8,8 @@
 
 Just install this package from the [Extension Marketplace](https://marketplace.visualstudio.com/VSCode), then make sure to add `"editor.snippetSuggestions": "top"` to your user settings to see these snippets on top in the suggestion popover.
 
+![Usage](./elix-web-components.gif)
+
 ## Snippets
 
 Snippets are optimized to be short and easy to remember.
@@ -20,10 +22,6 @@ Below is a list of all available snippets and the triggers of each one. Press `C
 | `elix-getter`     | Getter for selected string with Elix state API       |
 | `elix-setter`     | Setter for selected string with Elix state API       |
 | `elix-getter-setter`     | Getter and Setter for selected string with Elix state API       |
-
-
-![Usage](./elix-web-components.gif)
-
 
 ## Reference & Sources
 - [Github Elix](https://github.com/elix/elix)
