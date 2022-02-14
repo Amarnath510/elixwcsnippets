@@ -6,6 +6,10 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [0.0.2]
 
+- Update readme
+
+## [0.0.2]
+
 - Added downloads image in README
 ## [0.0.1]
 
